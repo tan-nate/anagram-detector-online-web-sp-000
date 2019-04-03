@@ -5,5 +5,8 @@ class Anagram
     @word = word
   end
   
-  def match()
+  def match(string_array)
+    word = word.split("")
+    string_array.each do 
+  end
 end
